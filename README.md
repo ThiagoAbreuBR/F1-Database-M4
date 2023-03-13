@@ -14,24 +14,28 @@
 
 ➤ Canva
 
-# 1 - Quantas corridas foram realizada durante todas temporadas ?
+➤ 1 - Quantas corridas foram realizada durante todas temporadas ?
 ```sh
 USE f1;
 SELECT  MAX(raceId) as Total_de_Corridas from race
 ```
 
 # 2 - Quantos pilotos participaram de corridas entre os anos de 1950-2022 ?
-
 ```sh
 USE f1;
 SELECT  MAX(driverId) as Total_de_Pilotos from driver
 ```
 
 # 3 - Quantas equipes já disputaram corridas na F1 ?
-
 ```sh
 USE f1;
 SELECT  MAX(constructorId) as Total_de_Equipe from constructor
+```
+
+# 3 - Qual nome dos autódromos no Brasil que já receberam corridas e em que cidade estão localizado ?
+```sh
+USE f1;
+SELECT name, location from circuit where country in ("Brazil");
 ```
 
 Nome das pista brasileira que já teve na F1
