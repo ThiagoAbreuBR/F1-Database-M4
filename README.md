@@ -57,7 +57,7 @@ USE f1;
 SELECT name from constructor where nationality in ("Austrian")
 ```
 
-# 8 - Qual foi o Grande Prêmio disputado no dia 12/12/202
+# 8 - Qual foi o Grande Prêmio disputado no dia 12/12/2021
 ```sh
 USE f1;
 SELECT name as GrandePrêmio from race where date in ('12/12/2021')
