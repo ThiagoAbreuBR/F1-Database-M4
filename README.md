@@ -1,6 +1,24 @@
 # F1-Database-M4
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FF0000&size=40&center=true&vCenter=true&width=1000&lines=+Banco+de+Dados+(F1))](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FF0000&size=40&center=true&vCenter=true&width=1000&lines=+Banco+de+Dados+F1)](https://git.io/typing-svg)
+
+# Tecnologias Usadas:
+
+➤ MySQL
+
+➤ Excel
+
+➤ CSV 
+
+➤ Power BI
+
+➤ Canva
+
+# 1 - Quantas corridas foram realizada durante todas temporadas ?
+```sh
+use f1;
+SELECT  MAX(raceId) as Total_de_Corridas from race
+```
 
 Quantas corridas já aconteceram na F1 ?
 use f1;
