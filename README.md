@@ -1,8 +1,6 @@
 #  Visualizando a situação 
 ![download](https://user-images.githubusercontent.com/116724740/224853010-75794061-0189-4ede-af8c-891b9ee12519.png)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FF0000&size=40&center=true&vCenter=true&width=1000&lines=+Banco+de+Dados+Formula One)](https://git.io/typing-svg)
-
 # Contexto do projeto
 
 ➤ Temos um problema e precisaremos da sua ajuda para resolver! Acumulamos alguns conjuntos de dados e não conseguimos ter uma visão padronizada desses dados.
