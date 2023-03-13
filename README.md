@@ -14,7 +14,7 @@
 
 ➤ Canva
 
-➤ 1 - Quantas corridas foram realizada durante todas temporadas ?
+# 1 - Quantas corridas foram realizada durante todas temporadas ?
 ```sh
 USE f1;
 SELECT  MAX(raceId) as Total_de_Corridas from race
@@ -32,28 +32,33 @@ USE f1;
 SELECT  MAX(constructorId) as Total_de_Equipe from constructor
 ```
 
-# 3 - Qual nome dos autódromos no Brasil que já receberam corridas e em que cidade estão localizado ?
+# 4 - Qual nome dos autódromos no Brasil que já receberam corridas e em que cidade estão localizado ?
 ```sh
 USE f1;
 SELECT name, location from circuit where country in ("Brazil");
 ```
 
-Nome das pista brasileira que já teve na F1
-use f1;
-select * from circuit where country in ("Brazil");
+# 5 - Qual é o nome dos pilotos brasileiros que já correram na F1 ?
+```sh
+USE f1;
+SELECT forename,surname,nationality from driver where nationality in("Brazilian");
+```
 
-Nome dos pilotos brasileiros que já participaram da F1
-use f1;
-select * from driver where a in ("Brazilian");
-
+# 6 - Qual foram os Grande Prêmios realizado na temporada de 2021 ?
 Qual foram os Grande Prêmios realizado em 2021
-use f1;
-select name as GrandePremio from race where year in ("2021");
+```sh
+USE f1;
+SELECT name as GrandePremio from race where year in ("2021");
+```
 
-Quais são as equipes Austriáca que já passaram pela F1
-use f1;
-select * from constructor where nationality in ("Austrian")
+# 7 - Quais são as equipes Austriáca que já passaram pela F1 ?
+```sh
+USE f1;
+SELECT name from constructor where nationality in ("Austrian")
+```
 
-Qual foi o Grande Prêmio disputado no dia 12/12/202
-use f1;
-select name as GrandePrêmio from race where date in ('12/12/2021')
+# 8 - Qual foi o Grande Prêmio disputado no dia 12/12/202
+```sh
+USE f1;
+SELECT name as GrandePrêmio from race where date in ('12/12/2021')
+```
