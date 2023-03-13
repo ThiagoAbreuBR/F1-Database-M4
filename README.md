@@ -19,9 +19,9 @@
 ## Integrantes do Grupo
 
 - **Daniel França**
-- **Gabriel Ribeiro*
+- **Gabriel Ribeiro**
 - **Jhoselith Del Valle**
-- **Thalyta Cunha**
+- **Thiago Abreu**
 
 # 1 - Quantas corridas foram realizada durante todas temporadas ?
 ```sh
