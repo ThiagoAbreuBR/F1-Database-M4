@@ -28,6 +28,9 @@
 ![F1](https://user-images.githubusercontent.com/116724740/224870282-9ba27063-e8fc-40a8-a8b3-f0fa3bed3eeb.png)
 
 
+## Banco de Dados
+Utlizado no projeto pode ser encontrado [aqui](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020).
+
 # 1 - Quantas corridas foram realizada durante todas temporadas ?
 ```sh
 USE f1;
